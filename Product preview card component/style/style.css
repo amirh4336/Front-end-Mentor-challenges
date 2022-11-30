@@ -5,6 +5,7 @@ body {
 body main {
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 body main .card {
   background: white;
