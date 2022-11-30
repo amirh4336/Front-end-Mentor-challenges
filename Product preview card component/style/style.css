@@ -33,10 +33,11 @@ body main .card .card-body h1 {
   font-weight: 900;
   margin-top: 0.25rem;
 }
-body main .card .card-body p {
-  font-size: 1 rem;
+body main .card .card-body .card-text p {
+  font-size: 14px;
   color: hsl(228deg, 12%, 48%);
-  font-size: 700;
+  font-weight: 600;
+  line-height: 25px;
 }
 body main .card .card-body .card-price {
   display: flex;
@@ -55,6 +56,9 @@ body main .card .card-body .card-price .main-price {
   margin-right: 1.2rem;
 }
 body main .card .card-body .card-price .second-price {
+  font-size: 1 rem;
+  font-size: 700;
+  color: hsl(228deg, 12%, 48%);
   font-size: 14px;
   text-decoration: line-through;
 }
