@@ -2,20 +2,23 @@ body {
   background-color: hsl(30deg, 38%, 92%);
   margin: 0;
 }
-body .card {
+body main {
+  display: flex;
+  justify-content: center;
+}
+body main .card {
   background: white;
   margin-top: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 0.75rem;
+  max-width: 350px;
 }
-
-@media screen and (min-width: 320px) {
-  .card {
-    width: 300px;
-  }
-  .card #image-mobile {
-    width: 100%;
-    border-radius: 0.75rem 0.75rem 0 0;
-  }
+body main .card #image-mobile {
+  width: 100%;
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+body main .card .card-body {
+  margin: 1rem;
+  margin-top: 0;
 }/*# sourceMappingURL=style.css.map */
