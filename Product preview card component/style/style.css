@@ -22,5 +22,19 @@ body main .card #image-mobile {
 }
 body main .card .card-body {
   margin: 1rem;
-  margin-top: 0;
+}
+body main .card .card-body h3 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: hsl(228deg, 12%, 48%);
+}
+body main .card .card-body h1 {
+  font-family: "Fraunces";
+  font-weight: 900;
+  margin-top: 0.25rem;
+}
+body main .card .card-body p {
+  font-size: 1 rem;
+  color: hsl(228deg, 12%, 48%);
+  font-size: 700;
 }/*# sourceMappingURL=style.css.map */

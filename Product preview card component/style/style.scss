@@ -20,7 +20,21 @@ body {
             }
             .card-body {
                 margin: 1rem;
-                margin-top: 0;
+                h3 {
+                    font-size: .8rem;
+                    font-weight: 700;
+                    color: hsl(228, 12%, 48%);
+                }
+                h1 {
+                    font-family: 'Fraunces';
+                    font-weight: 900;
+                    margin-top: .25rem;
+                }
+            p {
+                font-size: 1 rem;
+                color: hsl(228, 12%, 48%);
+                font-size: 700;
+            }
             }
         }
     }
