@@ -6,7 +6,7 @@ body {
 body main {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 body main .card {
   background: white;
@@ -19,6 +19,9 @@ body main .card {
 body main .card #image-mobile {
   width: 100%;
   border-radius: 0.75rem 0.75rem 0 0;
+}
+body main .card #image-desktop {
+  display: none;
 }
 body main .card .card-body {
   margin: 1rem;
@@ -81,4 +84,25 @@ body main .card .card-body .card-btn .btn img {
 }
 body main .card .card-body .card-btn .btn:hover {
   background: hsl(158deg, 55%, 29%);
+}
+
+@media screen and (min-width: 768px) {
+  main .card {
+    display: flex;
+    max-width: 750px !important;
+  }
+  main .card .image-card-top {
+    width: 135%;
+  }
+  main .card .image-card-top #image-mobile {
+    display: none;
+  }
+  main .card .image-card-top #image-desktop {
+    display: block !important;
+    width: 100%;
+    border-radius: 0.75rem 0 0 0.75rem;
+  }
+  main .card .card-body {
+    margin: 2.5rem !important;
+  }
 }/*# sourceMappingURL=style.css.map */
