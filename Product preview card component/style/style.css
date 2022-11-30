@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: "Montserrat";
   background-color: hsl(30deg, 38%, 92%);
   margin: 0;
@@ -84,6 +87,10 @@ body main .card .card-body .card-btn .btn img {
 }
 body main .card .card-body .card-btn .btn:hover {
   background: hsl(158deg, 55%, 29%);
+}
+body .attribution {
+  position: absolute;
+  bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
