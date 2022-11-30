@@ -37,4 +37,41 @@ body main .card .card-body p {
   font-size: 1 rem;
   color: hsl(228deg, 12%, 48%);
   font-size: 700;
+}
+body main .card .card-body .card-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+body main .card .card-body .card-price p {
+  margin: 0;
+}
+body main .card .card-body .card-price .main-price {
+  font-family: "Fraunces";
+  color: hsl(158deg, 36%, 37%);
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 1.2rem;
+}
+body main .card .card-body .card-price .second-price {
+  font-size: 14px;
+  text-decoration: line-through;
+}
+body main .card .card-body .card-btn .btn {
+  width: 100%;
+  border: none;
+  border-radius: 0.4rem;
+  background: hsl(158deg, 36%, 37%);
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  font-family: "Montserrat";
+  color: white;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+body main .card .card-body .card-btn .btn img {
+  margin-right: 10px;
 }/*# sourceMappingURL=style.css.map */
